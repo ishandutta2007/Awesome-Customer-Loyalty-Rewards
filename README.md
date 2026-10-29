@@ -1,257 +1,112 @@
-# Awesome-E-Commerce-Management-Platform
-
-## Top E-commerce Management Platform Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Store Administration, Catalog Management & Self-Hosted Commerce Backends*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **E-commerce Management Platforms**. These tools provide the operational backbone for online stores—managing products, orders, customers, inventory, and pricing through an administrative interface—whether as fully hosted SaaS or self-hosted open-source systems.
-
-
-
-**Examples** include Shopify Admin, BigCommerce, WooCommerce, Adobe Commerce (Magento), Salesforce Commerce Cloud, Commerce Layer, SAP Commerce Cloud, PrestaShop, Squarespace, and Wix eCommerce (the category leaders).
-
-
-
-**Open-source emphasis**: E-commerce Management is a domain where open-source tooling is **mature, diverse, and genuinely competitive**—though the right choice depends heavily on your stack, scale, and operational capacity. **WooCommerce** is the most widely deployed open-source option, free at its core with no platform fees or revenue share, backed by a 60,000+ plugin ecosystem and deep WordPress integration . **Magento Open Source (Adobe Commerce Community Edition)** remains the most feature-rich open-source platform for enterprise-scale catalogs, with native B2B, multi-store, and advanced indexing—but it demands significant PHP expertise and 3–6 months to reach production readiness . **PrestaShop** strikes a balance between Magento's complexity and WooCommerce's simplicity, with a mature module marketplace and strong European adoption . **Sylius** offers architecturally clean Symfony-based commerce for teams valuing testability and domain-driven design . **Vendure** provides a modern Node.js/NestJS headless platform with GraphQL out of the box . **Spree** and **Solidus** serve Ruby shops with modular, community-owned foundations . The critical caveat: **self-hosted platforms carry full responsibility** for hosting, security, performance, and maintenance—SaaS platforms like Shopify and BigCommerce handle that operational burden in exchange for monthly fees and, in some cases, revenue share .
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Shopify Admin](https://www.shopify.com/)**  
-
-  Fully hosted commerce platform with a polished admin dashboard, integrated payments (Shop Pay), multi-channel selling, and a massive app ecosystem; handles hosting, security, and uptime. Best for SMBs prioritizing speed and low operational overhead .
-
-
-
-- **[BigCommerce](https://www.bigcommerce.com/)**  
-
-  SaaS platform with strong built-in features for B2B, wholesale, and large catalogs—advanced product filtering, multi-currency, custom pricing, and quote management often without needing apps; API-first architecture for ERP/CRM integration .
-
-
-
-- **[WooCommerce](https://woocommerce.com/)**  
-
-  Free, open-source ecommerce plugin for WordPress (listed here for its SaaS-adjacent managed hosting options); core platform is free with no platform fees or revenue share, but you pay for hosting ($25–$350/mo typical) and extensions .
-
-
-
-- **[Adobe Commerce (Magento)](https://business.adobe.com/)**  
-
-  Enterprise commerce platform with full source access, native B2B, multi-store, and advanced catalog management; requires significant PHP development and infrastructure investment, with annual license costs ($22k–$125k+) for the Commerce edition .
-
-
-
-- **[Salesforce Commerce Cloud](https://www.salesforce.com/)**  
-
-  Fully managed SaaS commerce platform tightly integrated with the Salesforce ecosystem (Sales, Service, Marketing Cloud); fast B2C deployment, AI via Einstein/Agentforce, but revenue share of 1–3% of GMV and limited code-level customization .
-
-
-
-- **[Commerce Layer](https://commercelayer.io/)**  
-
-  Headless commerce API and order management system for adding global shopping to any website, app, or device; MACH-certified, PCI DSS Level 1, EU data hosting; free developer plan and Growth from $649/mo .
-
-
-
-- **[SAP Commerce Cloud](https://www.sap.com/)**  
-
-  Enterprise commerce (formerly Hybris) for organizations deeply integrated with SAP ERP; excels in complex B2B environments but is heavy to implement (12–18 months typical) and expensive .
-
-
-
-- **[PrestaShop](https://www.prestashop.com/)**  
-
-  Open-source ecommerce platform (listed for its cloud-hosted options) with a mature module marketplace; popular in Europe for mid-market merchants, balancing complexity and simplicity .
-
-
-
-- **[Squarespace](https://www.squarespace.com/)**  
-
-  All-in-one website builder with ecommerce capabilities; best for small businesses and creatives prioritizing design simplicity over deep commerce customization .
-
-
-
-- **[Wix eCommerce](https://www.wix.com/)**  
-
-  Website builder with ecommerce features; suited for small businesses and startups wanting an integrated site + store without technical overhead .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### PHP-Based Platforms
-
-
-
-- **[WooCommerce](https://github.com/woocommerce/woocommerce)**  
-
-  The most widely used open-source ecommerce platform (WordPress plugin); free core with no platform fees or revenue share, unlimited products and orders, and a 60,000+ plugin ecosystem . **Best for WordPress sites**, but scaling requires infrastructure investment and caching discipline .
-
-
-
-- **[Magento Open Source (Adobe Commerce Community Edition)](https://github.com/magento/magento2)**  
-
-  The most feature-rich open-source commerce platform; native multi-store, multi-currency, advanced indexing, and B2B capabilities in Adobe Commerce (paid edition) . **Requires 3–6 months and significant PHP expertise to reach production**; best for enterprise-scale stores with complex requirements .
-
-
-
-- **[PrestaShop](https://github.com/PrestaShop/PrestaShop)**  
-
-  Open-source platform (since 2007) with a mature module marketplace; balances Magento's complexity and WooCommerce's simplicity. **Popular for mid-market European merchants** .
-
-
-
-- **[Sylius](https://github.com/Sylius/Sylius)**  
-
-  Symfony-based ecommerce platform with domain-driven design and clean architecture; excellent for PHP developers valuing testability and flexibility in custom storefronts .
-
-
-
-- **[OpenCart](https://github.com/opencart/opencart)**  
-
-  Simple, long-standing platform (since 2009) with a large extension marketplace (13,000+ extensions); requires minimal technical expertise to operate but has a dated codebase .
-
-
-
-- **[Aimeos](https://github.com/aimeos/aimeos)**  
-
-  PHP ecommerce framework that runs on Laravel or standalone; optimized for high-traffic catalogs with advanced caching and database optimizations .
-
-
-
-### Node.js / JavaScript Platforms
-
-
-
-- **[Vendure](https://github.com/vendure-ecommerce/vendure)**  
-
-  Headless commerce platform built on Node.js and NestJS with GraphQL API out of the box; emphasizes developer experience for custom storefronts .
-
-
-
-- **[EverShop](https://github.com/evershopcommerce/evershop)**  
-
-  Node.js ecommerce platform (4,382 GitHub stars, actively maintained); modern JavaScript stack for developers wanting a full-stack Node commerce solution .
-
-
-
-### Ruby-Based Platforms
-
-
-
-- **[Spree](https://github.com/spree/spree)**  
-
-  One of the original Rails ecommerce platforms (15,360 GitHub stars); modular architecture and strong community, but steeper learning curve than newer options .
-
-
-
-- **[Solidus](https://github.com/solidusio/solidus)**  
-
-  Community-owned fork of Spree focused on stability and long-term support; solid choice for Ruby shops wanting production-ready commerce without corporate lock-in .
-
-
-
-### .NET / Other Platforms
-
-
-
-- **[nopCommerce](https://github.com/nopCommerce/nopCommerce)**  
-
-  Leading open-source .NET ecommerce platform (10,047 GitHub stars); best for organizations standardized on Microsoft technologies, with 1,500+ integrations in its marketplace .
-
-
-
-- **[Shopware](https://github.com/shopware/shopware)**  
-
-  German-born platform (3,322 GitHub stars) with both headless API and traditional admin; strong European community and growing international adoption .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Saleor** — GraphQL-first headless platform, strong for B2B with complex pricing and multi-tenant requirements .
-
-- **Reaction Commerce** — **CAUTION**: No commits since late 2022; effectively abandoned. Avoid for new projects .
-
-- **OpenMage LTS** — Community-maintained long-term support fork of Magento 1; security patches and bug fixes for legacy stores .
-
-- **VirtoCommerce** — .NET-based B2B innovation platform .
-
-- **GrandNode** — .NET Core headless multi-tenant platform (note: GrandNode 1 last pushed ~3 years ago; GrandNode 2 at 986 stars) .
-
-
-
-**Frameworks for building custom systems**: For **WordPress sites**, WooCommerce is the obvious choice . For **enterprise-scale with complex requirements**, Magento Open Source (with significant investment) or Sylius for clean architecture . For **modern headless Node.js**, Vendure . For **Ruby teams**, Spree or Solidus . For **.NET organizations**, nopCommerce . For **headless API-first composability**, Commerce Layer (SaaS) or Saleor . The right choice depends on your existing stack, team skills, and tolerance for operational burden—SaaS platforms trade flexibility for simplicity, while open-source platforms trade simplicity for control .
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- E-commerce platforms handling payment and customer data must comply with **PCI DSS** requirements; self-hosted solutions require full responsibility for security hardening, hosting, and maintenance.
-
-- **Open-source e-commerce management is mature and diverse**—WooCommerce, Magento, PrestaShop, Sylius, Vendure, and others serve different stacks and scales. However, **self-hosted platforms carry operational burden** that SaaS platforms absorb: hosting, security patches, performance optimization, and uptime management are your responsibility . Choose based on team capacity and long-term strategy, not just license cost.
-
-- Verify license terms for commercial use; WooCommerce uses GPL, Magento Open Source uses OSL/AFL, PrestaShop uses OSL, Sylius uses MIT, Vendure uses MIT, and nopCommerce uses GPL.
-
-
+# Awesome Customer Loyalty & Rewards [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Customer Loyalty &amp; Rewards Ecosystem" width="100%">
+</p>
+
+<p align="center">
+  <strong>Curated Directory of Customer Loyalty Software, Cashback Networks, Points Engines &amp; Self-Hosted Rewards Infrastructure</strong>
+</p>
+
+<p align="center">
+  <a href="#sector-overview--market-dynamics">Sector Overview</a> •
+  <a href="#saas-hosted-platforms">SaaS Platforms</a> •
+  <a href="#open-source-github-projects">Open-Source Engines</a> •
+  <a href="#key-architectural-patterns">Architecture</a> •
+  <a href="#how-to-contribute">Contribute</a>
+</p>
 
 ---
 
+## Overview & Scope
 
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Customer Loyalty & Rewards**. These solutions empower e-commerce merchants, retail brands, fintech ecosystems, and developers to incentivize repeat purchases, gamify retention, reward referrals, and build coalition programs—transforming transactional buyers into lifetime brand advocates through cashback, points ledgers, VIP tiers, and card-linked offers.
 
-**Made for e-commerce operators, store administrators, developers, and merchants choosing their commerce platform.**  
+---
 
-Let's make e-commerce management more open, but with clear eyes about the operational trade-offs between control and convenience.
+## Sector Overview & Market Dynamics
+
+The global customer loyalty management market is estimated at **$6.47 billion in 2024 and is projected to reach $28.65 billion by 2032 (CAGR of ~20.4%)**, propelled by rising customer acquisition costs (CAC) and the shift toward first-party retention data. The sector exhibits **moderate-to-high fragmentation** across B2B merchant software (with hundreds of specialized apps, headless loyalty APIs, and e-commerce plugins competing on integration depth), contrasted with **extreme winner-take-all concentration** in consumer-facing coalition cashback networks (e.g., Rakuten, PayPal Honey, Ibotta) where two-sided network effects and bilateral retail affiliate contracts create virtually insurmountable competitive moats.
+
+---
+
+## Table of Contents
+
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS/Hosted Platforms](#saas-hosted-platforms)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+- [Frameworks & Custom Systems](#frameworks-for-building-custom-systems)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
+
+---
+
+## SaaS/Hosted Platforms
+
+The table below catalogs premier hosted customer loyalty engines, consumer cashback platforms, and card-linked rewards providers, sorted descending by enterprise scale (company market valuation or reported annual revenue run-rate):
+
+| Platform | Company Valuation / Revenue | Starting Pricing Tier | Free Tier Limits / Trial Period | Primary Architecture & Focus |
+|:---|:---|:---|:---|:---|
+| **[Shop Cash](https://shop.app/)** | **~$125.0B** *(Shopify Market Cap, 2026)* | **$39/month** *(Shopify Basic starting plan; Shop Cash fully funded by Shopify for 1% base earn)* | **3-day free trial** followed by $1/month promo for first 3 months; full admin & rewards access | Native consumer rewards in Shop app; merchants get automated 1% Shop Cash funded by Shopify with 0% extra fee |
+| **[Honey Gold](https://www.joinhoney.com/)** | **~$70.0B** *(Parent PayPal Market Cap; Honey acquired for $4.0B)* | **Commission-based affiliate model** *(Merchant affiliate CPA/CPS starting at 3%–10% per sale)* | **100% Free forever for consumers**; free store directory listing for standard PayPal/Braintree merchants | Browser extension & checkout coupon finder with merchant-sponsored Gold points redeemable for gift cards |
+| **[Rakuten Rewards](https://www.rakuten.com/)** | **~$14.5B** *(Parent Rakuten Group Market Cap; ~$15B+ Annual Revenue)* | **Affiliate CPA revenue share** *(Typically 1%–15% commission per tracked order depending on merchant vertical)* | **100% Free forever for consumers**; merchants pay zero upfront SaaS subscription fee (pure performance CPA) | Coalition cashback network partnering with 3,500+ merchants; quarterly cash payouts via PayPal or paper check |
+| **[Swagbucks](https://www.swagbucks.com/)** | **~$1.5B** *(Parent Prodege Valuation; $200M+ Annual Revenue)* | **Performance-based CPA/CPL** *(Starting at $1.50 per validated user action or survey completion)* | **100% Free forever for consumers**; $10 welcome bonus; no subscription charge | Gamified rewards platform offering points (SB) for shopping, web searches, video viewing, and surveys |
+| **[Ibotta](https://ibotta.com/)** | **~$1.4B** *(NYSE: IBTA Market Cap; ~$320M Annual Revenue)* | **Pay-per-sale affiliate performance fee** *(Starting at 2%–8% manufacturer/retailer rebate spend)* | **100% Free forever for consumers**; $20 minimum cash-out threshold via linked bank or gift cards | Item-level grocery & retail cashback engine with receipt scanning and direct card-linked loyalty account sync |
+| **[Upside](https://www.upside.com/)** | **~$1.5B** *(Valued at $1.5B Series D; $150M+ ARR)* | **Profit-sharing performance pricing** *(Starting at ~15%–20% share of verified incremental merchant margin)* | **100% Free forever for consumers**; zero upfront or monthly merchant fee (charged only on proven margin lift) | Brick-and-mortar personalized cashback platform optimizing fuel, grocery, and restaurant customer dwell-time |
+| **[Fetch Rewards](https://fetch.com/)** | **~$2.5B+** *(Private Valuation; $200M+ Revenue Run-Rate)* | **Brand partnership sponsor pricing** *(Starting at $10,000/campaign for CPG item promotions)* | **100% Free forever for consumers**; rewards unlock at 3,000 points (~$3 value); receipt scanning | Consumer receipt-scanning app converting paper & digital receipts into partner gift cards and gaming rewards |
+| **[Drop](https://joindrop.com/)** | **~$350M** *(Total capital raised $100M+; $30M+ ARR)* | **Affiliate commission split** *(Starting at 3%–7% tracked order commission)* | **100% Free forever tier**; card-linked automated tracking on up to 5 merchant selections | Card-linked coalition program awarding points automatically on linked debit/credit cards |
+| **[TopCashback](https://www.topcashback.com/)** | **~$150M** *(Privately held UK/US; $100M+ Revenue)* | **Merchant affiliate network rate** *(Commission pass-through with optional paid sponsored placements)* | **100% Free Classic account**; Plus membership optional at £5/$5 deducted annually from cashback earnings | Fair-play rebate network passing 100% of affiliate merchant commissions directly back to consumer members |
+| **[Lolli](https://www.lolli.com/)** | **~$70M** *(Series B backed; $10M+ ARR)* | **Affiliate performance commission** *(Starting at 2%–12% order value split into Satoshis)* | **100% Free forever browser extension & mobile app**; card-linking available with no setup fees | Bitcoin cashback on-ramp awarding Satoshi fractions and cash back on shopping, booking travel, and gaming |
+
+---
+
+## Open-Source GitHub Projects
+
+The following self-hosted customer loyalty backends, points management plugins, and rewards applications are ranked descending by GitHub Stargazers:
+
+| Repository & Stars | Technology Stack | Primary Architecture & Capabilities | License |
+|:---|:---|:---|:---|
+| **[CatimaLoyalty/Android](https://github.com/CatimaLoyalty/Android)**<br>[![GitHub stars](https://img.shields.io/github/stars/CatimaLoyalty/Android?style=social&color=white)](https://github.com/CatimaLoyalty/Android/stargazers) | Java / Kotlin / Android SDK | **1,730+ Stars** • Full privacy-first digital loyalty card and ticket wallet. Replaces plastic barcode cards, supports offline storage, card grouping, notes, OCR scanning, and export/import. | GPL-3.0 |
+| **[l4rm4nd/VoucherVault](https://github.com/l4rm4nd/VoucherVault)**<br>[![GitHub stars](https://img.shields.io/github/stars/l4rm4nd/VoucherVault?style=social&color=white)](https://github.com/l4rm4nd/VoucherVault/stargazers) | Python / Django / SQLite / PWA | **513+ Stars** • Self-hosted web app to digitize and manage coupons, loyalty vouchers, and gift cards. Features offline PWA caching, expiration alerts, balance histories, and OIDC SSO. | AGPL-3.0 |
+| **[amicalhq/refref](https://github.com/amicalhq/refref)**<br>[![GitHub stars](https://img.shields.io/github/stars/amicalhq/refref?style=social&color=white)](https://github.com/amicalhq/refref/stargazers) | TypeScript / Next.js / Supabase / PostgreSQL | **239+ Stars** • Developer-centric open-source referral and affiliate reward engine. Tracks referral conversions, generates discount codes, and manages multi-tier advocate rewards. | MIT |
+| **[Raktim94/nodedr-restaurant-pos](https://github.com/Raktim94/nodedr-restaurant-pos)**<br>[![GitHub stars](https://img.shields.io/github/stars/Raktim94/nodedr-restaurant-pos?style=social&color=white)](https://github.com/Raktim94/nodedr-restaurant-pos/stargazers) | Node.js / Express / MongoDB / React | **224+ Stars** • Self-hosted restaurant management & POS with integrated customer loyalty tiers, table reservations, QR ordering, and automated point accrual upon checkout. | MIT |
+| **[brarcher/loyalty-card-locker](https://github.com/brarcher/loyalty-card-locker)**<br>[![GitHub stars](https://img.shields.io/github/stars/brarcher/loyalty-card-locker?style=social&color=white)](https://github.com/brarcher/loyalty-card-locker/stargazers) | Java / Android | **177+ Stars** • Lightweight open-source Android barcode locker for store loyalty and membership cards with camera-based barcode scanning and fast POS retrieval. | GPL-3.0 |
+| **[amazon-archives/aws-serverless-appsync-loyalty](https://github.com/amazon-archives/aws-serverless-appsync-loyalty)**<br>[![GitHub stars](https://img.shields.io/github/stars/amazon-archives/aws-serverless-appsync-loyalty?style=social&color=white)](https://github.com/amazon-archives/aws-serverless-appsync-loyalty/stargazers) | AWS Lambda / AppSync / GraphQL / DynamoDB | **116+ Stars** • Enterprise serverless customer loyalty sample application illustrating event-driven transaction accrual, real-time GraphQL point balances, and scalable redemption. | Apache-2.0 |
+| **[IBM/customer-loyalty-program-hyperledger-fabric-VSCode](https://github.com/IBM/customer-loyalty-program-hyperledger-fabric-VSCode)**<br>[![GitHub stars](https://img.shields.io/github/stars/IBM/customer-loyalty-program-hyperledger-fabric-VSCode?style=social&color=white)](https://github.com/IBM/customer-loyalty-program-hyperledger-fabric-VSCode/stargazers) | Hyperledger Fabric / Node.js / Vue.js | **106+ Stars** • Distributed ledger coalition loyalty program where multiple partners track member points, prevent double-spending, and execute secure token redemptions. | Apache-2.0 |
+| **[miracuthbert/laravel-royalty](https://github.com/miracuthbert/laravel-royalty)**<br>[![GitHub stars](https://img.shields.io/github/stars/miracuthbert/laravel-royalty?style=social&color=white)](https://github.com/miracuthbert/laravel-royalty/stargazers) | PHP / Laravel | **82+ Stars** • Pluggable Laravel package for customer reward points, gamification XP, loyalty balances, and transactional ledger events with real-time broadcasting. | MIT |
+| **[OpenLoyalty/loyalty-blockchain](https://github.com/OpenLoyalty/loyalty-blockchain)**<br>[![GitHub stars](https://img.shields.io/github/stars/OpenLoyalty/loyalty-blockchain?style=social&color=white)](https://github.com/OpenLoyalty/loyalty-blockchain/stargazers) | Go / Hyperledger Fabric | **35+ Stars** • Enterprise blockchain API module for loyalty assets: points ledgers, digital vouchers, gift card verification, and cryptographic multi-partner settlement. | MIT |
+| **[vinsol-spree-contrib/spree-loyalty-points](https://github.com/vinsol-spree-contrib/spree-loyalty-points)**<br>[![GitHub stars](https://img.shields.io/github/stars/vinsol-spree-contrib/spree-loyalty-points?style=social&color=white)](https://github.com/vinsol-spree-contrib/spree-loyalty-points/stargazers) | Ruby / Rails / Spree Commerce | **25+ Stars** • Extension for Spree e-commerce stores allowing users to earn loyalty points on orders and spend them as partial or full payment during checkout. | BSD-3-Clause |
+| **[wpswings/points-and-rewards-for-woocommerce](https://github.com/wpswings/points-and-rewards-for-woocommerce)**<br>[![GitHub stars](https://img.shields.io/github/stars/wpswings/points-and-rewards-for-woocommerce?style=social&color=white)](https://github.com/wpswings/points-and-rewards-for-woocommerce/stargazers) | PHP / WordPress / WooCommerce | **15+ Stars** • Complete WooCommerce points & rewards plugin: earns points on registration, purchases, and social referrals; cart checkout redemption; badges and spin-the-wheel. | GPL-2.0 |
+| **[PrestaShop/loyalty](https://github.com/PrestaShop/loyalty)**<br>[![GitHub stars](https://img.shields.io/github/stars/PrestaShop/loyalty?style=social&color=white)](https://github.com/PrestaShop/loyalty/stargazers) | PHP / PrestaShop | **13+ Stars** • Native loyalty program module for PrestaShop stores offering points-to-voucher conversions and discount coupons for repeat customer checkouts. | AFL-3.0 |
+| **[R3v180/LoyalPyME](https://github.com/R3v180/LoyalPyME)**<br>[![GitHub stars](https://img.shields.io/github/stars/R3v180/LoyalPyME?style=social&color=white)](https://github.com/R3v180/LoyalPyME/stargazers) | Node.js / React / PostgreSQL | **5+ Stars** • Integrated SME loyalty management and POS system featuring customer tier calculations, redemption catalog, digital menu ordering, and kitchen display. | MIT |
+| **[abarlow4944/Premio](https://github.com/abarlow4944/Premio)**<br>[![GitHub stars](https://img.shields.io/github/stars/abarlow4944/Premio?style=social&color=white)](https://github.com/abarlow4944/Premio/stargazers) | React / Vite / Tailwind / Node / Prisma | **1+ Star** • Full-stack loyalty application with cashier/manager roles, QR code customer scanning, peer-to-peer point transfers, RSVP rewards, and Recharts analytics. | MIT |
+| **[AlAfiz/tapestry](https://github.com/AlAfiz/tapestry)**<br>[![GitHub stars](https://img.shields.io/github/stars/AlAfiz/tapestry?style=social&color=white)](https://github.com/AlAfiz/tapestry/stargazers) | Rust / Stellar Soroban smart contracts | **0 Stars** • Coalition loyalty protocol on Stellar Soroban with per-merchant SEP-41 tokens, on-chain cross-merchant conversion rates, and settlement netting. | Apache-2.0 |
+
+---
+
+## Frameworks for Building Custom Systems
+
+When evaluating the open-source landscape for loyalty, retention, and points mechanics, select based on architecture:
+
+1. **WordPress / WooCommerce Ecosystem**: Deploy [Points and Rewards for WooCommerce](https://github.com/wpswings/points-and-rewards-for-woocommerce) for turn-key store credits, referral tiers, and gamified redemption.
+2. **Laravel & PHP Backends**: Use [laravel-royalty](https://github.com/miracuthbert/laravel-royalty) to inject transactional double-entry points ledgers and reward levels into custom applications.
+3. **Ruby on Rails / Spree**: Implement [spree-loyalty-points](https://github.com/vinsol-spree-contrib/spree-loyalty-points) for native checkout points conversion.
+4. **Cloud-Native Serverless**: Follow the AWS reference pattern [aws-serverless-appsync-loyalty](https://github.com/amazon-archives/aws-serverless-appsync-loyalty) with DynamoDB transactions and GraphQL subscriptions.
+5. **Coalition / Multi-Partner Ledgers**: Deploy [IBM Hyperledger Fabric](https://github.com/IBM/customer-loyalty-program-hyperledger-fabric-VSCode) or [Stellar Soroban Tapestry](https://github.com/AlAfiz/tapestry) to facilitate cross-brand token redemption without centralized escrow risk.
+
+---
+
+## How to Contribute
+
+1. Fork the repository.
+2. Add or update entries following standard table markdown formatting.
+3. Keep descriptions objective, verify star counts, and link directly to official documentation or source code.
+4. Submit a Pull Request detailing your changes.
+
+---
+
+## Disclaimer
+
+- This is a community-curated directory intended for software evaluation and engineering research.
+- Customer loyalty programs handling financial rebates, rewards points, and user purchase metadata are subject to regional consumer protection rules, privacy laws (GDPR, CCPA), and escheatment laws regarding unclaimed property / expiring points.
+- Open-source software provides full control over data ownership and infrastructure; however, consumer coalition cashback models (e.g. Rakuten, Ibotta) require affiliate retailer partnership networks that open-source software cannot supply out-of-the-box.
