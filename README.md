@@ -1,70 +1,82 @@
-# Awesome Customer Loyalty & Rewards [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Customer Loyalty & Rewards 🎁
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Customer-Loyalty-Rewards"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Customer-Loyalty-Rewards?style=social" alt="GitHub Repo Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Customer-Loyalty-Rewards/fork"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Customer-Loyalty-Rewards?style=social" alt="GitHub Repo Forks" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 <p align="center">
   <img src="assets/banner.svg" alt="Awesome Customer Loyalty &amp; Rewards Ecosystem" width="100%">
 </p>
 
 <p align="center">
-  <strong>Curated Directory of Customer Loyalty Software, Cashback Networks, Points Engines &amp; Self-Hosted Rewards Infrastructure</strong>
+  <strong>🌟 Curated Directory of Customer Loyalty Software, Cashback Networks, Points Engines &amp; Self-Hosted Rewards Infrastructure 💳</strong>
 </p>
 
 <p align="center">
-  <a href="#sector-overview--market-dynamics">Sector Overview</a> •
-  <a href="#saas-hosted-platforms">SaaS Platforms</a> •
-  <a href="#open-source-github-projects">Open-Source Engines</a> •
-  <a href="#key-architectural-patterns">Architecture</a> •
-  <a href="#how-to-contribute">Contribute</a>
+  <a href="#-sector-overview--market-dynamics">📊 Sector Overview</a> •
+  <a href="#-saashosted-platforms">☁️ SaaS Platforms</a> •
+  <a href="#-open-source-github-projects">💻 Open-Source Engines</a> •
+  <a href="#-frameworks-for-building-custom-systems">🛠️ Architecture</a> •
+  <a href="#-star-history">📈 Star History</a> •
+  <a href="#-support--sponsor">☕ Support</a> •
+  <a href="#-how-to-contribute">🤝 Contribute</a>
 </p>
 
 ---
 
-## Overview & Scope
+## 🧭 Overview & Scope
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Customer Loyalty & Rewards**. These solutions empower e-commerce merchants, retail brands, fintech ecosystems, and developers to incentivize repeat purchases, gamify retention, reward referrals, and build coalition programs—transforming transactional buyers into lifetime brand advocates through cashback, points ledgers, VIP tiers, and card-linked offers.
-
----
-
-## Sector Overview & Market Dynamics
-
-The global customer loyalty management market is estimated at **$6.47 billion in 2024 and is projected to reach $28.65 billion by 2032 (CAGR of ~20.4%)**, propelled by rising customer acquisition costs (CAC) and the shift toward first-party retention data. The sector exhibits **moderate-to-high fragmentation** across B2B merchant software (with hundreds of specialized apps, headless loyalty APIs, and e-commerce plugins competing on integration depth), contrasted with **extreme winner-take-all concentration** in consumer-facing coalition cashback networks (e.g., Rakuten, PayPal Honey, Ibotta) where two-sided network effects and bilateral retail affiliate contracts create virtually insurmountable competitive moats.
+This repository tracks notable **SaaS platforms** ☁️ and **open-source projects** 💻 for **Customer Loyalty & Rewards** 🎁. These solutions empower e-commerce merchants 🛒, retail brands 🏬, fintech ecosystems 💳, and developers 👨‍💻 to incentivize repeat purchases, gamify retention 🎯, reward referrals 👥, and build coalition programs—transforming transactional buyers into lifetime brand advocates through cashback 💵, points ledgers 🪙, VIP tiers 👑, and card-linked offers 💳.
 
 ---
 
-## Table of Contents
+## 📊 Sector Overview & Market Dynamics
 
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [Frameworks & Custom Systems](#frameworks-for-building-custom-systems)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+The global customer loyalty management market is estimated at **$6.47 billion in 2024 and is projected to reach $28.65 billion by 2032 (CAGR of ~20.4%)** 📈, propelled by rising customer acquisition costs (CAC) 💸 and the shift toward first-party retention data 🔒. The sector exhibits **moderate-to-high fragmentation** 🧩 across B2B merchant software (with hundreds of specialized apps, headless loyalty APIs, and e-commerce plugins competing on integration depth), contrasted with **extreme winner-take-all concentration** 🏆 in consumer-facing coalition cashback networks (e.g., Rakuten, PayPal Honey, Ibotta) where two-sided network effects and bilateral retail affiliate contracts create virtually insurmountable competitive moats 🏰.
 
 ---
 
-## SaaS/Hosted Platforms
+## 📑 Table of Contents
+
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS/Hosted Platforms](#-saashosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ Frameworks for Building Custom Systems](#-frameworks-for-building-custom-systems)
+- [📈 Star History](#-star-history)
+- [☕ Support & Sponsor](#-support--sponsor)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [📜 Disclaimer](#-disclaimer)
+
+---
+
+## ☁️ SaaS/Hosted Platforms
 
 The table below catalogs premier hosted customer loyalty engines, consumer cashback platforms, and card-linked rewards providers, sorted descending by enterprise scale (company market valuation or reported annual revenue run-rate):
 
-| Platform | Company Valuation / Revenue | Starting Pricing Tier | Free Tier Limits / Trial Period | Primary Architecture & Focus |
+| Platform | Company Valuation / Revenue 🏢 | Starting Pricing Tier 🏷️ | Free Tier Limits / Trial Period ⏳ | Primary Architecture & Focus 🎯 |
 |:---|:---|:---|:---|:---|
-| **[Shop Cash](https://shop.app/)** | **~$125.0B** *(Shopify Market Cap, 2026)* | **$39/month** *(Shopify Basic starting plan; Shop Cash fully funded by Shopify for 1% base earn)* | **3-day free trial** followed by $1/month promo for first 3 months; full admin & rewards access | Native consumer rewards in Shop app; merchants get automated 1% Shop Cash funded by Shopify with 0% extra fee |
-| **[Honey Gold](https://www.joinhoney.com/)** | **~$70.0B** *(Parent PayPal Market Cap; Honey acquired for $4.0B)* | **Commission-based affiliate model** *(Merchant affiliate CPA/CPS starting at 3%–10% per sale)* | **100% Free forever for consumers**; free store directory listing for standard PayPal/Braintree merchants | Browser extension & checkout coupon finder with merchant-sponsored Gold points redeemable for gift cards |
-| **[Rakuten Rewards](https://www.rakuten.com/)** | **~$14.5B** *(Parent Rakuten Group Market Cap; ~$15B+ Annual Revenue)* | **Affiliate CPA revenue share** *(Typically 1%–15% commission per tracked order depending on merchant vertical)* | **100% Free forever for consumers**; merchants pay zero upfront SaaS subscription fee (pure performance CPA) | Coalition cashback network partnering with 3,500+ merchants; quarterly cash payouts via PayPal or paper check |
-| **[Swagbucks](https://www.swagbucks.com/)** | **~$1.5B** *(Parent Prodege Valuation; $200M+ Annual Revenue)* | **Performance-based CPA/CPL** *(Starting at $1.50 per validated user action or survey completion)* | **100% Free forever for consumers**; $10 welcome bonus; no subscription charge | Gamified rewards platform offering points (SB) for shopping, web searches, video viewing, and surveys |
-| **[Ibotta](https://ibotta.com/)** | **~$1.4B** *(NYSE: IBTA Market Cap; ~$320M Annual Revenue)* | **Pay-per-sale affiliate performance fee** *(Starting at 2%–8% manufacturer/retailer rebate spend)* | **100% Free forever for consumers**; $20 minimum cash-out threshold via linked bank or gift cards | Item-level grocery & retail cashback engine with receipt scanning and direct card-linked loyalty account sync |
-| **[Upside](https://www.upside.com/)** | **~$1.5B** *(Valued at $1.5B Series D; $150M+ ARR)* | **Profit-sharing performance pricing** *(Starting at ~15%–20% share of verified incremental merchant margin)* | **100% Free forever for consumers**; zero upfront or monthly merchant fee (charged only on proven margin lift) | Brick-and-mortar personalized cashback platform optimizing fuel, grocery, and restaurant customer dwell-time |
-| **[Fetch Rewards](https://fetch.com/)** | **~$2.5B+** *(Private Valuation; $200M+ Revenue Run-Rate)* | **Brand partnership sponsor pricing** *(Starting at $10,000/campaign for CPG item promotions)* | **100% Free forever for consumers**; rewards unlock at 3,000 points (~$3 value); receipt scanning | Consumer receipt-scanning app converting paper & digital receipts into partner gift cards and gaming rewards |
-| **[Drop](https://joindrop.com/)** | **~$350M** *(Total capital raised $100M+; $30M+ ARR)* | **Affiliate commission split** *(Starting at 3%–7% tracked order commission)* | **100% Free forever tier**; card-linked automated tracking on up to 5 merchant selections | Card-linked coalition program awarding points automatically on linked debit/credit cards |
-| **[TopCashback](https://www.topcashback.com/)** | **~$150M** *(Privately held UK/US; $100M+ Revenue)* | **Merchant affiliate network rate** *(Commission pass-through with optional paid sponsored placements)* | **100% Free Classic account**; Plus membership optional at £5/$5 deducted annually from cashback earnings | Fair-play rebate network passing 100% of affiliate merchant commissions directly back to consumer members |
-| **[Lolli](https://www.lolli.com/)** | **~$70M** *(Series B backed; $10M+ ARR)* | **Affiliate performance commission** *(Starting at 2%–12% order value split into Satoshis)* | **100% Free forever browser extension & mobile app**; card-linking available with no setup fees | Bitcoin cashback on-ramp awarding Satoshi fractions and cash back on shopping, booking travel, and gaming |
+| **[Shop Cash](https://shop.app/)** 🛍️ | **~$125.0B** *(Shopify Market Cap, 2026)* | **$39/month** *(Shopify Basic starting plan; Shop Cash fully funded by Shopify for 1% base earn)* | **3-day free trial** followed by $1/month promo for first 3 months; full admin & rewards access | Native consumer rewards in Shop app; merchants get automated 1% Shop Cash funded by Shopify with 0% extra fee |
+| **[Honey Gold](https://www.joinhoney.com/)** 🍯 | **~$70.0B** *(Parent PayPal Market Cap; Honey acquired for $4.0B)* | **Commission-based affiliate model** *(Merchant affiliate CPA/CPS starting at 3%–10% per sale)* | **100% Free forever for consumers**; free store directory listing for standard PayPal/Braintree merchants | Browser extension & checkout coupon finder with merchant-sponsored Gold points redeemable for gift cards |
+| **[Rakuten Rewards](https://www.rakuten.com/)** 💰 | **~$14.5B** *(Parent Rakuten Group Market Cap; ~$15B+ Annual Revenue)* | **Affiliate CPA revenue share** *(Typically 1%–15% commission per tracked order depending on merchant vertical)* | **100% Free forever for consumers**; merchants pay zero upfront SaaS subscription fee (pure performance CPA) | Coalition cashback network partnering with 3,500+ merchants; quarterly cash payouts via PayPal or paper check |
+| **[Swagbucks](https://www.swagbucks.com/)** 🪙 | **~$1.5B** *(Parent Prodege Valuation; $200M+ Annual Revenue)* | **Performance-based CPA/CPL** *(Starting at $1.50 per validated user action or survey completion)* | **100% Free forever for consumers**; $10 welcome bonus; no subscription charge | Gamified rewards platform offering points (SB) for shopping, web searches, video viewing, and surveys |
+| **[Ibotta](https://ibotta.com/)** 🧾 | **~$1.4B** *(NYSE: IBTA Market Cap; ~$320M Annual Revenue)* | **Pay-per-sale affiliate performance fee** *(Starting at 2%–8% manufacturer/retailer rebate spend)* | **100% Free forever for consumers**; $20 minimum cash-out threshold via linked bank or gift cards | Item-level grocery & retail cashback engine with receipt scanning and direct card-linked loyalty account sync |
+| **[Upside](https://www.upside.com/)** ⛽ | **~$1.5B** *(Valued at $1.5B Series D; $150M+ ARR)* | **Profit-sharing performance pricing** *(Starting at ~15%–20% share of verified incremental merchant margin)* | **100% Free forever for consumers**; zero upfront or monthly merchant fee (charged only on proven margin lift) | Brick-and-mortar personalized cashback platform optimizing fuel, grocery, and restaurant customer dwell-time |
+| **[Fetch Rewards](https://fetch.com/)** 🐶 | **~$2.5B+** *(Private Valuation; $200M+ Revenue Run-Rate)* | **Brand partnership sponsor pricing** *(Starting at $10,000/campaign for CPG item promotions)* | **100% Free forever for consumers**; rewards unlock at 3,000 points (~$3 value); receipt scanning | Consumer receipt-scanning app converting paper & digital receipts into partner gift cards and gaming rewards |
+| **[Drop](https://joindrop.com/)** 💳 | **~$350M** *(Total capital raised $100M+; $30M+ ARR)* | **Affiliate commission split** *(Starting at 3%–7% tracked order commission)* | **100% Free forever tier**; card-linked automated tracking on up to 5 merchant selections | Card-linked coalition program awarding points automatically on linked debit/credit cards |
+| **[TopCashback](https://www.topcashback.com/)** 💸 | **~$150M** *(Privately held UK/US; $100M+ Revenue)* | **Merchant affiliate network rate** *(Commission pass-through with optional paid sponsored placements)* | **100% Free Classic account**; Plus membership optional at £5/$5 deducted annually from cashback earnings | Fair-play rebate network passing 100% of affiliate merchant commissions directly back to consumer members |
+| **[Lolli](https://www.lolli.com/)** ⚡ | **~$70M** *(Series B backed; $10M+ ARR)* | **Affiliate performance commission** *(Starting at 2%–12% order value split into Satoshis)* | **100% Free forever browser extension & mobile app**; card-linking available with no setup fees | Bitcoin cashback on-ramp awarding Satoshi fractions and cash back on shopping, booking travel, and gaming |
 
 ---
 
-## Open-Source GitHub Projects
+## 💻 Open-Source GitHub Projects
 
-The following self-hosted customer loyalty backends, points management plugins, and rewards applications are ranked descending by GitHub Stargazers:
+The following self-hosted customer loyalty backends, points management plugins, and rewards applications are ranked descending by GitHub Stargazers ⭐:
 
-| Repository & Stars | Technology Stack | Primary Architecture & Capabilities | License |
+| Repository & Stars 🌟 | Technology Stack 🛠️ | Primary Architecture & Capabilities 🚀 | License 📄 |
 |:---|:---|:---|:---|
 | **[CatimaLoyalty/Android](https://github.com/CatimaLoyalty/Android)**<br>[![GitHub stars](https://img.shields.io/github/stars/CatimaLoyalty/Android?style=social&color=white)](https://github.com/CatimaLoyalty/Android/stargazers) | Java / Kotlin / Android SDK | **1,730+ Stars** • Full privacy-first digital loyalty card and ticket wallet. Replaces plastic barcode cards, supports offline storage, card grouping, notes, OCR scanning, and export/import. | GPL-3.0 |
 | **[l4rm4nd/VoucherVault](https://github.com/l4rm4nd/VoucherVault)**<br>[![GitHub stars](https://img.shields.io/github/stars/l4rm4nd/VoucherVault?style=social&color=white)](https://github.com/l4rm4nd/VoucherVault/stargazers) | Python / Django / SQLite / PWA | **513+ Stars** • Self-hosted web app to digitize and manage coupons, loyalty vouchers, and gift cards. Features offline PWA caching, expiration alerts, balance histories, and OIDC SSO. | AGPL-3.0 |
@@ -84,28 +96,46 @@ The following self-hosted customer loyalty backends, points management plugins, 
 
 ---
 
-## Frameworks for Building Custom Systems
+## 🛠️ Frameworks for Building Custom Systems
 
 When evaluating the open-source landscape for loyalty, retention, and points mechanics, select based on architecture:
 
-1. **WordPress / WooCommerce Ecosystem**: Deploy [Points and Rewards for WooCommerce](https://github.com/wpswings/points-and-rewards-for-woocommerce) for turn-key store credits, referral tiers, and gamified redemption.
-2. **Laravel & PHP Backends**: Use [laravel-royalty](https://github.com/miracuthbert/laravel-royalty) to inject transactional double-entry points ledgers and reward levels into custom applications.
-3. **Ruby on Rails / Spree**: Implement [spree-loyalty-points](https://github.com/vinsol-spree-contrib/spree-loyalty-points) for native checkout points conversion.
-4. **Cloud-Native Serverless**: Follow the AWS reference pattern [aws-serverless-appsync-loyalty](https://github.com/amazon-archives/aws-serverless-appsync-loyalty) with DynamoDB transactions and GraphQL subscriptions.
-5. **Coalition / Multi-Partner Ledgers**: Deploy [IBM Hyperledger Fabric](https://github.com/IBM/customer-loyalty-program-hyperledger-fabric-VSCode) or [Stellar Soroban Tapestry](https://github.com/AlAfiz/tapestry) to facilitate cross-brand token redemption without centralized escrow risk.
+1. **WordPress / WooCommerce Ecosystem** 🛒: Deploy [Points and Rewards for WooCommerce](https://github.com/wpswings/points-and-rewards-for-woocommerce) for turn-key store credits, referral tiers, and gamified redemption.
+2. **Laravel & PHP Backends** 🐘: Use [laravel-royalty](https://github.com/miracuthbert/laravel-royalty) to inject transactional double-entry points ledgers and reward levels into custom applications.
+3. **Ruby on Rails / Spree** 💎: Implement [spree-loyalty-points](https://github.com/vinsol-spree-contrib/spree-loyalty-points) for native checkout points conversion.
+4. **Cloud-Native Serverless** ☁️: Follow the AWS reference pattern [aws-serverless-appsync-loyalty](https://github.com/amazon-archives/aws-serverless-appsync-loyalty) with DynamoDB transactions and GraphQL subscriptions.
+5. **Coalition / Multi-Partner Ledgers** 🔗: Deploy [IBM Hyperledger Fabric](https://github.com/IBM/customer-loyalty-program-hyperledger-fabric-VSCode) or [Stellar Soroban Tapestry](https://github.com/AlAfiz/tapestry) to facilitate cross-brand token redemption without centralized escrow risk.
 
 ---
 
-## How to Contribute
+## 📈 Star History
 
-1. Fork the repository.
-2. Add or update entries following standard table markdown formatting.
-3. Keep descriptions objective, verify star counts, and link directly to official documentation or source code.
-4. Submit a Pull Request detailing your changes.
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Customer-Loyalty-Rewards&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Customer-Loyalty-Rewards&type=date&legend=top-left)
 
 ---
 
-## Disclaimer
+## ☕ Support & Sponsor
+
+Thank you for visiting and using this curated directory! 🎉 If this project helped you discover customer loyalty software, design rewards architectures, or evaluate fintech rebate tools, please consider supporting its ongoing maintenance:
+
+- ⭐ **Star this repository** on GitHub to help others discover it.
+- 🍴 **Fork and share** the project with your engineering and growth marketing teams.
+- ☕ **Buy me a coffee / Sponsor**: Support further open-source research and directory curation via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Your backing directly enables continuous updates, new feature comparisons, and expanded open-source tooling analysis! 🙌
+
+---
+
+## 🤝 How to Contribute
+
+1. Fork the repository 🍴.
+2. Add or update entries following standard table markdown formatting 📝.
+3. Keep descriptions objective, verify star counts, and link directly to official documentation or source code 🔗.
+4. Submit a Pull Request detailing your changes 🚀.
+
+---
+
+## 📜 Disclaimer
 
 - This is a community-curated directory intended for software evaluation and engineering research.
 - Customer loyalty programs handling financial rebates, rewards points, and user purchase metadata are subject to regional consumer protection rules, privacy laws (GDPR, CCPA), and escheatment laws regarding unclaimed property / expiring points.
